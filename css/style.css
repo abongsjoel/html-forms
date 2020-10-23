@@ -152,12 +152,12 @@ main footer .recaptcha {
 footer nav {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 footer nav li {
   display: inline-block;
   padding: 10px;
-
 }
 
 footer nav li a {
@@ -171,3 +171,13 @@ footer nav li a {
   margin: 0 auto;
 }
 
+footer .copyright {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer .copyright p {
+  margin: 5px;
+  font-size: 12px;
+}
