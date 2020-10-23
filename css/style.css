@@ -102,7 +102,7 @@ main form label input, main form button {
   width: 100%;
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 10px 0;
+  padding: 10px;
   border: 1px solid #919191;
   margin: 10px 0 30px 0;
 }
@@ -114,4 +114,14 @@ main form .phone {
 main form input + p {
   font-size: 11px;
   margin: 5px 0 30px 0;
+}
+
+main form .password {
+  position: relative;
+}
+
+main form .password .lock-icon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
 }
