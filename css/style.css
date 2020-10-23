@@ -5,3 +5,27 @@ body {
 .apps p {
   font-family: 'Montserrat', sans-serif;
 }
+
+.blue {
+  color: #0077c5;
+}
+
+header.signin {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 30px;
+}
+
+header.signin button {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+header.signin button svg {
+  padding: 0 5px;
+}
