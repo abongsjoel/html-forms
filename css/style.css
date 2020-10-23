@@ -1,5 +1,6 @@
 body {
   background: #ECEEF1;
+  font-family: 'Roboto', sans-serif;
 }
 
 .apps p {
@@ -8,12 +9,18 @@ body {
 
 .blue {
   color: #0077c5;
+  padding-top: 5px;
 }
 
 header.signin {
   display: flex;
   justify-content: flex-end;
   margin: 10px 30px;
+  align-items: center;
+}
+
+header.signin .text {
+  font-size: 12px;
 }
 
 header.signin button {
