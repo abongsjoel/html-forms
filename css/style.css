@@ -1,3 +1,7 @@
 body {
-  background: red;
+  background: #ECEEF1;
+}
+
+.apps p {
+  font-family: 'Montserrat', sans-serif;
 }
