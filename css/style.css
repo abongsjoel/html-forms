@@ -78,8 +78,8 @@ main .apps > div {
 main section.form {
   max-width: 400px;
   margin: 0 auto;
-  border: 1px solid #333333;
-  background: white;  
+  border: 1px solid #333;
+  background: white;
 }  
 
 main section.form h1 {
@@ -103,7 +103,8 @@ main form {
   padding: 0 30px;
 }
 
-main form label input, main form button {
+main form button, 
+main form label input {
   width: 100%;
   box-sizing: border-box;
   border-radius: 5px;
@@ -116,13 +117,14 @@ main form .phone {
   margin-bottom: 0;
 }
 
-main form input + p {
+main form p {
   font-size: 11px;
   margin: 5px 0 30px 0;
 }
 
 main form .password {
   position: relative;
+  display: block;
 }
 
 main form .password .lock-icon {
@@ -145,7 +147,7 @@ main footer .legend {
 
 main footer .recaptcha {
   font-size: 10px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   margin: 0;
   padding: 30px 0;
 }
@@ -162,7 +164,7 @@ footer nav li {
 
 footer nav li a {
   text-decoration: none;
-  color: #333333;
+  color: #333;
   font-size: 12px;
   cursor: pointer;
 }
