@@ -132,12 +132,20 @@ main form .password .lock-icon {
 }
 
 main footer {
-  padding: 0 30px;
+  text-align: center;
 }
 
 main footer .legend {
   font-size: 13px;
   width: 300px;
-  text-align: center;
+  margin: 0 auto;
   line-height: 18px;
+  margin-bottom: 35px;
+}
+
+main footer .recaptcha {
+  font-size: 10px;
+  background-color: #ECEEF1;
+  margin: 0;
+  padding: 30px 0;
 }
