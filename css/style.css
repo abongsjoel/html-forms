@@ -9,7 +9,9 @@ body {
 
 .blue {
   color: #0077c5;
+  font-weight: 500;
   padding-top: 5px;
+  text-decoration: none;
 }
 
 header.signin {
@@ -127,4 +129,15 @@ main form .password .lock-icon {
   position: absolute;
   right: 12px;
   top: 12px;
+}
+
+main footer {
+  padding: 0 30px;
+}
+
+main footer .legend {
+  font-size: 13px;
+  width: 300px;
+  text-align: center;
+  line-height: 18px;
 }
