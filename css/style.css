@@ -30,7 +30,7 @@ header.signin button svg {
   padding: 0 5px;
 }
 
-main > header {
+main > nav {
   max-width: 300px;
   padding: 10px;
   margin: 0 auto;
