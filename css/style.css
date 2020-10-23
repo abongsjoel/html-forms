@@ -29,3 +29,36 @@ header.signin button {
 header.signin button svg {
   padding: 0 5px;
 }
+
+main header {
+  max-width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main .logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+main .logo img {
+  width: 150px;
+}
+
+main .apps {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+main .apps img {
+  width: 25px;
+  margin: 5px;
+}
+
+main .apps > div {
+  display: flex;
+  align-items: center;
+}
