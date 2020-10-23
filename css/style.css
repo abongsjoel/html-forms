@@ -1,0 +1,186 @@
+body {
+  background: #eceef1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.blue {
+  color: #0077c5;
+  font-weight: 500;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+header.signin {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 30px;
+  align-items: center;
+}
+
+header.signin .text {
+  font-size: 12px;
+}
+
+button {
+  background-color: #0077c5;
+  color: white;
+}
+
+header.signin button svg {
+  padding: 0 5px;
+}
+
+main > nav {
+  max-width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main .logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+main .logo img {
+  width: 150px;
+}
+
+main .apps {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+main .apps img {
+  width: 25px;
+  margin: 5px;
+}
+
+main .apps > div {
+  display: flex;
+  align-items: center;
+}
+
+main section.form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  background: white;
+}
+
+main section.form h1 {
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+}
+
+footer nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+main section.form .sub-title {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer nav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+main section.form .sub-title a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+main form {
+  padding: 0 30px;
+}
+
+main form button,
+main form label input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #919191;
+  margin: 10px 0 30px 0;
+}
+
+main form p {
+  font-size: 11px;
+  margin: 5px 0 30px 0;
+}
+
+.apps p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header.signin button {
+  border-radius: 5px;
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+main form .phone {
+  margin-bottom: 0;
+}
+
+main form .password {
+  position: relative;
+  display: block;
+}
+
+main form .password .lock-icon {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+main footer {
+  text-align: center;
+}
+
+main footer .legend {
+  font-size: 13px;
+  width: 300px;
+  margin: 0 auto;
+  line-height: 18px;
+  margin-bottom: 35px;
+}
+
+main footer .recaptcha {
+  font-size: 10px;
+  background-color: #eceef1;
+  margin: 0;
+  padding: 30px 0;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.quick-links {
+  margin: 0 auto;
+}
+
+footer .copyright {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer .copyright p {
+  margin: 5px;
+  font-size: 12px;
+}

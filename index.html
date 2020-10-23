@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="signin">
+        <div class="text">
+            <p>Already have an Intuit account?</p>
+            <p class="blue">I forgot my User ID or Password</p>
+        </div>
+        <button type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+               width="15" height="15"
+               viewBox="0 0 172 172"
+               style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
+                 <path d="M0,172v-172h172v172z" fill="none"></path>
+                 <g fill="#ffffff">
+                   <path d="M86,10.32c-22.83031,0 -41.28,18.44969 -41.28,41.28v17.2h-13.76c-5.84531,0 -10.32,4.47469 -10.32,10.32v82.56c0,5.84531 4.47469,10.32 10.32,10.32h110.08c5.84531,0 10.32,-4.47469 10.32,-10.32v-82.56c0,-5.84531 -4.47469,-10.32 -10.32,-10.32h-13.76v-17.2c0,-22.83031 -18.44969,-41.28 -41.28,-41.28zM86,17.2c19.14844,0 34.4,15.25156 34.4,34.4v17.2h-68.8v-17.2c0,-19.14844 15.25156,-34.4 34.4,-34.4zM86,103.2c5.84531,0 10.32,4.47469 10.32,10.32c0,3.09063 -1.37062,5.805 -3.44,7.525v9.675c0,3.78938 -3.09062,6.88 -6.88,6.88c-3.78937,0 -6.88,-3.09062 -6.88,-6.88v-9.675c-2.06937,-1.72 -3.44,-4.43437 -3.44,-7.525c0,-5.84531 4.47469,-10.32 10.32,-10.32z"></path>
+                  </g>
+                </g>
+          </svg>
+          Sign In
+        </button>
+    </header>
+    
+
+    <main>
+        <nav>
+          <div class="logo">
+            <img src="assets/logo-intuit.png" alt="">
+          </div>
+          <div class="apps">
+            <div class="mint">
+              <img src="assets/mint.png" class="icon" alt="">
+              <p>mint</p>
+            </div>
+            <div class="quickbooks">
+              <img src="assets/quckbooks.png" alt="">
+              <p>quickbooks</p>
+            </div>
+            <div class="turbotax">
+              <img src="assets/turbotax.png" alt="">
+              <p>turbotax</p>
+            </div>
+          </div>
+        </nav>
+
+        <section class="form">
+            <div class="summary">
+              <h1>Create an Intuit account</h1>
+              <div class="sub-title">
+                <p>One account for everything Intuit, including Mint.</p>
+                <a class="blue" href="#">Learn more</a>
+              </div>
+            </div>
+
+            <form action="/login" method="post">
+              <label>
+                Email adress
+                <input type="email" required>
+              </label>
+              <label>
+                Phone (recommended)
+                <input type="tel" class="phone">
+              </label>
+              <p>Standard call, messaging or data rates may apply.</p>
+              <label>
+                Password
+                <span class="password">
+                  <input type="password" required>
+                  <img class='lock-icon' src="assets/unlock.png" alt="">
+                </span>
+              </label>
+              <button type="button" name="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="15" height="15"
+                  viewBox="0 0 172 172"
+                  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#ffffff">
+                    <path d="M86,10.32c-22.83031,0 -41.28,18.44969 -41.28,41.28v17.2h-13.76c-5.84531,0 -10.32,4.47469 -10.32,10.32v82.56c0,5.84531 4.47469,10.32 10.32,10.32h110.08c5.84531,0 10.32,-4.47469 10.32,-10.32v-82.56c0,-5.84531 -4.47469,-10.32 -10.32,-10.32h-13.76v-17.2c0,-22.83031 -18.44969,-41.28 -41.28,-41.28zM86,17.2c19.14844,0 34.4,15.25156 34.4,34.4v17.2h-68.8v-17.2c0,-19.14844 15.25156,-34.4 34.4,-34.4zM86,103.2c5.84531,0 10.32,4.47469 10.32,10.32c0,3.09063 -1.37062,5.805 -3.44,7.525v9.675c0,3.78938 -3.09062,6.88 -6.88,6.88c-3.78937,0 -6.88,-3.09062 -6.88,-6.88v-9.675c-2.06937,-1.72 -3.44,-4.43437 -3.44,-7.525c0,-5.84531 4.47469,-10.32 10.32,-10.32z"></path>
+                    </g>
+                  </g>
+                </svg>
+                Create Account
+              </button>
+            </form>
+            <footer>
+              <p class="legend">By clicking Create account, you agree to our <a href="#" class="blue">Terms</a> 
+                and have read and acknowledge our <a href="#" class="blue">Privacy Statement.</a></p>
+              <p class="recaptcha">Invisible reCAPTCHA by Google Privacy <a href="#" class="blue">Policy</a> 
+                and <a href="#" class="blue">Terms of Use.</a></p>
+            </footer>
+        </section>
+    </main>
+
+
+    <footer>
+      <nav class="quick-links">
+        <ul>
+          <li>
+            <a href="#">Legal</a>
+          </li>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+          <li>
+            <a href="#">Security</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright">
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+      </div>      
+    </footer>
+</body>
+</html>
