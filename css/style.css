@@ -23,9 +23,12 @@ header.signin .text {
   font-size: 12px;
 }
 
-header.signin button {
+button {
   background-color: #0077c5;
   color: white;
+}
+
+header.signin button {
   border-radius: 5px;
   padding: 7px 20px;
   display: flex;
