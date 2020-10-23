@@ -1,10 +1,6 @@
 body {
-  background: #ECEEF1;
+  background: #eceef1;
   font-family: 'Roboto', sans-serif;
-}
-
-.apps p {
-  font-family: 'Montserrat', sans-serif;
 }
 
 .blue {
@@ -28,14 +24,6 @@ header.signin .text {
 button {
   background-color: #0077c5;
   color: white;
-}
-
-header.signin button {
-  border-radius: 5px;
-  padding: 7px 20px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
 }
 
 header.signin button svg {
@@ -80,12 +68,17 @@ main section.form {
   margin: 0 auto;
   border: 1px solid #333;
   background: white;
-}  
+}
 
 main section.form h1 {
   font-size: 24px;
   margin: 20px;
   text-align: center;
+}
+
+footer nav li {
+  display: inline-block;
+  padding: 10px;
 }
 
 main section.form .sub-title {
@@ -103,7 +96,7 @@ main form {
   padding: 0 30px;
 }
 
-main form button, 
+main form button,
 main form label input {
   width: 100%;
   box-sizing: border-box;
@@ -111,6 +104,18 @@ main form label input {
   padding: 10px;
   border: 1px solid #919191;
   margin: 10px 0 30px 0;
+}
+
+.apps p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header.signin button {
+  border-radius: 5px;
+  padding: 7px 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 main form .phone {
@@ -151,15 +156,11 @@ main footer .recaptcha {
   margin: 0;
   padding: 30px 0;
 }
+
 footer nav {
   display: flex;
   justify-content: center;
   padding-top: 20px;
-}
-
-footer nav li {
-  display: inline-block;
-  padding: 10px;
 }
 
 footer nav li a {
