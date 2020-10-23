@@ -37,7 +37,7 @@ header.signin button svg {
   padding: 0 5px;
 }
 
-main header {
+main > header {
   max-width: 300px;
   padding: 10px;
   margin: 0 auto;
@@ -68,4 +68,28 @@ main .apps img {
 main .apps > div {
   display: flex;
   align-items: center;
+}
+
+main section.form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #333333;
+  background: white;  
+}  
+
+main section.form h1 {
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+}
+
+main section.form .sub-title {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main section.form .sub-title a {
+  font-size: 12px;
+  text-decoration: none;
 }
