@@ -4,6 +4,8 @@ In this project we clone the signup page from the mint.com website.
 
 ![screenshot](../featureDev/screenshot/screenshot.png) 
 
+We started by laying out the various sematic HTML elements for the major sections (header, form, footer), then we made them the proper sizes and alignments using css positioning, css flexbox as well as css grid system.
+
 <h2>Built with</h2>
 <ul>
   <li>HTML</li>
